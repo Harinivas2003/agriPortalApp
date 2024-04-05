@@ -126,6 +126,14 @@ $sessphonenumber = $_SESSION['phonenumber'];
                                     </div>
 
                                     <div class="form-group row">
+                                        <label for="permanent_address" class="col-md-4 col-form-label text-md-right text-center font-weight-bolder">Product Image link:</label>
+                                        <div class="col-md-6">
+                                            <input id="permanent_address" type="text" name="product_image_link">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group row">
                                         <label for="nid_number" class="col-md-4 col-form-label text-md-right text-center font-weight-bolder">Product MRP : (Per kg)</label>
                                         <div class="col-md-6">
                                             <input type="text" id="nid_number" class="form-control" name="product_price" placeholder="Enter Product price" required>
@@ -193,6 +201,7 @@ if (isset($_POST['insert_pro'])) {    // when button is clicked
     $product_desc = $_POST['product_desc'];
     $product_keywords = $_POST['product_keywords'];
     $product_delivery = $_POST['product_delivery'];
+    $product_img_link = $_POST['product_image_link'];
 
     // getting image
     $product_image = $_FILES['product_image']['name'];
@@ -201,7 +210,7 @@ if (isset($_POST['insert_pro'])) {    // when button is clicked
     $pyscript = 'c:\\xampp\\htdocs\\agriportal\\FarmerPortal\\app.py';
     $python = 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\python.exe';
 
-    exec("$python $pyscript", $output);
+    exec("$python $pyscript $product_img_link", $output);
     $last_line = null; // Initialize the variable to store the last line
 
     // foreach ($output as $key => $line) {

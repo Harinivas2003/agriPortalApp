@@ -1,5 +1,6 @@
 import cv2 as cv
 import cv2 as cv2
+import sys
 
 # Importing numpy for working with numpy arrays
 import numpy as np
@@ -200,7 +201,8 @@ def riceInspect(img,noise,brokenRiceSize,pixel):
     clear_img=noise_removal(gray_scale(read_image(img)),noise)
     riceAnalysis(clear_img,brokenRiceSize,pixel)
 
-
-img ="c:/xampp/htdocs/agriportal/FarmerPortal/image_3.jpg"
+# img ="c:/xampp/htdocs/agriportal/FarmerPortal/image_3.jpg"
+print(sys.argv)
+img = sys.argv[1]
 riceInspect(img,3,2,0.10)
 
