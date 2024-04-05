@@ -135,19 +135,19 @@
         <th  class=thy>Amount</th>
         </thead>
         <tr align="center" class=trow>
-            <th align="center" >Abhishek</th>
-            <th align="center">9871234511</th>
-            <th align="center">Sanpada</th>
-            <th align="center">Abhishek-Apples</th>
+            <th align="center" >Karthik</th>
+            <th align="center">9876543210</th>
+            <th align="center">Chennai</th>
+            <th align="center">Rice</th>
             <th align="center">1</th>
             <th align="center">Yes</th>
             <th >70</th>
         </tr>
         <tr align="center" >
-            <th>Ansh</th>
-            <th>9876987211</th>
-            <th>Thane</th>
-            <th>Ansh-Mangoes</th>
+            <th>Hari</th>
+            <th>9753864219</th>
+            <th>Coimbatore</th>
+            <th>Basmati rice</th>
             <th>2</th>
             <th>No</th>
             <th>120</th>

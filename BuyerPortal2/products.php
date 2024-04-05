@@ -420,7 +420,7 @@
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2 ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png">
                         </b></h3>
                     </div>
                     <img class="card-img-top" src="fruit1.jpeg" alt="Card image cap">
@@ -441,7 +441,7 @@
                 <div class="card  pl-3 pr-3 pb-0 pt-2 mt-2 ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> 
                         </b></h3>
                     </div>
                     <img class="card-img-top pic" src="myfruit1.jfif" alt="Card image cap">
@@ -462,7 +462,7 @@
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2  ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> 
                         </b></h3>
                     </div>
                     <img class="card-img-top" src="myfruit4.jfif" alt="Card image cap">
@@ -485,7 +485,7 @@
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2  ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> 
                         </b></h3>
                     </div>
                     <img class="card-img-top" src="myfruit4.jfif" alt="Card image cap" height="315px">
@@ -506,7 +506,7 @@
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2 ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> 
                         </b></h3>
                     </div>
                     <img class="card-img-top" src="myfruit4.jfif" alt="Card image cap">

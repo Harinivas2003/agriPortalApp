@@ -18,7 +18,7 @@ echo.
 
 color 0a
 echo -----------------------------------
-echo Made By: Abhishek Gupta    
+echo Made By: Cit    
 echo -----------------------------------
 echo.
 echo.
